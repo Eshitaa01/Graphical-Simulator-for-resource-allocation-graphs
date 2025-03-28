@@ -1,0 +1,20 @@
+Project Overview
+This project simulates Graphical visualization of Resource allocation graphs in Operating Systems using a graphical approach.  
+It is designed to represent processes and resources as a graph, detect possible deadlocks, and prevent them using well-known strategies.
+ Features
+- Graph representation of processes and resources.
+- Deadlock detection using cycle detection algorithms.
+- Deadlock prevention by avoiding "Hold and Wait" & "Circular Wait" conditions.
+- Interactive GUI for:
+   - Adding/removing edges (resource allocation / release)
+   - Visualizing the resource allocation graph
+   - Displaying deadlock alerts.
+Modules
+1. Graph Representation Module :Stores processes, resources, and their relations using a directed graph. 
+2. Deadlock Detection & Prevention Module:  Uses cycle detection algorithms to check for deadlocks and applies hold and wait and circular wait prevention techniques. 
+3. Visualization & GUI Module: Displays the graph visually, allows user interaction (add/remove edges), and shows deadlock alerts dynamically. 
+Programming Language: Python
+GUI Library:Tkinter
+Graph Library:NetworkX
+Version Control:Git & GitHub
+
